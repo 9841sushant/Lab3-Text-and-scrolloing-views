@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="@dimen/padding_regular"
     tools:context=".MainActivity">
 
     <TextView
@@ -34,6 +35,7 @@
                 android:padding="@dimen/padding_regular"
                 android:text="@string/article_subtitle"
                 android:textAppearance="@android:style/TextAppearance.DeviceDefault" />
+
             <TextView
                 android:id="@+id/article"
                 android:layout_width="wrap_content"
@@ -43,6 +45,16 @@
                 android:lineSpacingExtra="5sp"
                 android:padding="@dimen/padding_regular"
                 android:text="@string/article_text" />
+
+            <Button
+                android:id="@+id/btn_AddComment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#BED1CF"
+                android:padding="@dimen/padding_regular"
+                android:text="@string/add_comment"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>
