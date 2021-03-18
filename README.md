@@ -2,3 +2,5 @@
 ### Homework
 ![](./homework_ss.jpg)
 ![](./homework_ssland.jpg)
+### GIF
+![GIF](lab3gif.gif)
